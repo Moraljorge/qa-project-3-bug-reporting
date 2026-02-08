@@ -1,0 +1,11 @@
+qa-project-3-bug-reporting
+├── README.md
+├── Bug-Reports/
+│   ├── bug_login_error.md
+│   ├── bug_profile_update.md
+├── Test-Scenarios/
+│   └── test_scenarios.md
+├── Evidences/
+│   └── screenshots/
+└── Jira-Simulation/
+    └── jira_tickets.md
