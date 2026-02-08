@@ -1,0 +1,88 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Actual end),Custom field (Actual start),Custom field (Approvals),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Focus Areas),Custom field (Goals),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request participants),Custom field (Sentiment),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Status Category,Status Category Changed
+"Cuando borras las direcciones y no se completa ningun campo, el boton reservar no se muestra",CDPPLLDBR-3,10088,Bug,To Do,CDPPLLDBR,"Casos de prueba para la lógica del botón ""Reservar""",software,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,,Highest,,,,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,03/Jan/26 3:50 PM,06/Jan/26 7:47 PM,06/Jan/26 7:45 PM,,,0,"Resultado esperado: Se muestra el boton reservar con texto  ‘'agregar licencia de conducir y reservar’'
+
+Resultado actual: Se muestran los campos desde y hasta con texto introduce la direccion
+
+Precondiciones:
+
+1_Ir al banco de pruebas
+
+2_Ingresar ""1917 Bay St"" en el campo Desde
+
+3_Ingresar ""615 S Broadway"" en el campo Hasta
+
+4_Elegir el modo Personal
+
+5_ Elegir Automóvil compartido como el tipo de transporte
+
+pasos a seguir 
+
+1_ Borrar las direcciones 
+
+Severidad: bloqueante
+
+Prioridad: inmediata","Versión: windows, Google Chrome: 800x600",JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5767ab70,,,,,,,,,,,,,,,,0|i0003j:,,,,,,,,,,,,,,,To Do,03/Jan/26 3:50 PM
+"Cuando haces clic en el boton reservar sin agregar tarjeta, la ventana emergente de agregar metodo de pago no se muestra",CDPPLLDBR-2,10087,Bug,To Do,CDPPLLDBR,"Casos de prueba para la lógica del botón ""Reservar""",software,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,,Highest,,,,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,03/Jan/26 3:38 PM,06/Jan/26 7:49 PM,06/Jan/26 7:48 PM,,,0,"Titulo:
+
+Al hacer clic en el boton reservar la ventana agregar tarjeta no se muestra
+
+Resultado esperado: Al hacer clic en el boton reservar la ventana agregar tarjeta se muestra
+
+Resultado actual: Al hacer clic en el boton reservar la ventana agregar tarjeta no se muestra
+
+Precondiciones:
+
+1_Ir al banco de pruebas
+
+2_Ingresar ""1917 Bay St"" en el campo Desde
+
+3_Ingresar ""615 S Broadway"" en el campo Hasta
+
+4_Elegir el modo Personal
+
+5_ Elegir Automóvil compartido como el tipo de transporte
+
+6_Hacer clic en el boton reservar
+
+Pasos a seguir
+
+1_Agregar licencia de conducir
+
+2_hacer clic en el boton reservar
+
+Severidad: bloqueante
+
+Prioridad: inmediata","Versión: windows, Google Chrome: 800x600",JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@b9b8bbf,,,,,,,,,,,,,,,,0|i0003b:,,,,,,,,,,,,,,,To Do,03/Jan/26 3:38 PM
+"Cuando haces clic en el boton reservar sin agregar licencia de conducir, la ventana emergente de agregar licencia de conducir no se muestra",CDPPLLDBR-1,10086,Bug,To Do,CDPPLLDBR,"Casos de prueba para la lógica del botón ""Reservar""",software,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,,Highest,,,,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,03/Jan/26 3:29 PM,06/Jan/26 7:51 PM,06/Jan/26 7:49 PM,,,0,"Titulo
+
+Lógica del botón de reserva cuando falta agregar la licencia de conducir
+
+Resultado esperado: Al hacer clic en el boton reservar Aparece la ventana ""Agregar licencia
+de conducir"" 
+
+Resultado actual: Al hacer clic en el boton resrvar no aparece la ventana ""Agregar licencia
+de conducir"" 
+
+Precondiciones:
+
+1_Ir al banco de pruebas
+
+2_Ingresar ""1917 Bay St"" en el campo Desde
+
+3_Ingresar ""615 S Broadway"" en el campo Hasta
+
+4_Elegir el modo Personal
+
+5_ Elegir Automóvil compartido como el tipo de transporte
+
+6_Hacer clic en el boton reservar
+
+Pasos a seguir
+
+1_Agregar tarjeta 
+
+2_hacer clic en el boton reservar
+
+Severidad: bloqueante
+
+Prioridad: inmediata","Versión: windows, Google Chrome: 800x600",JORGE LUIS MORALES,712020:1b0679d0-b377-4375-aafd-02736bacb53c,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@b4fb836,,,,,,,,,,,,,,,,0|i00033:,,,,,,,,,,,,,,,To Do,03/Jan/26 3:29 PM
